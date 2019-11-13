@@ -1,0 +1,9 @@
+main aside.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  main aside.social a {
+    margin: .5rem 0;
+  }
