@@ -1,22 +1,20 @@
-.App {
-  text-align: center;
+main {
+  padding:0 10vw;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.landingpage {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.title {
+  color:#eeeeee;
+  font-size: 17vw;
+  font-weight: 700;
+}
+.subtitle {
+  font-size: 7vw;
+  color:var(--accent);
+  font-weight: 200;
 }

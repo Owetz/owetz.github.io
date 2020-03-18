@@ -1,9 +1,27 @@
-main aside.social {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+aside.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem;
+}
+
+aside.social a {
+  margin: .5rem 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  aside.social {
+    flex-direction: row;
+    width: 10rem;
+    justify-content: space-around;
   }
+
+  aside.social a {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
   
-  main aside.social a {
-    margin: .5rem 0;
-  }
+}

@@ -1,3 +1,10 @@
+:root {
+  --primary: #022c43;
+  --secondary: #053f5e;
+  --third: #115173;
+  --accent: #ffd700;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,17 +14,12 @@
 }
 
 html, body {
-  font-size: 20px;
-  font-family: 'Roboto', sans-serif;
-  background: #232526;
-  background: -webkit-linear-gradient(to right, #414345, #232526);
-  background: linear-gradient(to right, #414345, #232526);
+  font-family: 'Open+Sans', sans-serif;
+  background: var(--primary);
+  background: -webkit-linear-gradient(to right, var(--primary), var(--secondary));
+  background: linear-gradient(to right,var(--primary), var(--secondary));
   min-height: 100vh;
-  color: white;
+  color: #EEEEEE;
   overflow: hidden;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-}

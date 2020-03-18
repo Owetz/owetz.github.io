@@ -7,10 +7,10 @@ import { faFacebookSquare, faTwitterSquare, faGithubSquare, faLinkedin } from '@
 const SocialSideBar = () => {
     return (
         <aside className="social">
-            <a href="https://www.facebook.com/Tvahlen" target="_blank"><FontAwesomeIcon icon={faFacebookSquare} /></a>
-            <a href="https://twitter.com/danahlen" target="_blank"><FontAwesomeIcon icon={faTwitterSquare} /></a>
-            <a href="https://github.com/owetz" target="_blank"><FontAwesomeIcon icon={faGithubSquare} /></a>
-            <a href="https://www.linkedin.com/in/owetz/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+            <a href="https://www.facebook.com/Tvahlen" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebookSquare} /></a>
+            <a href="https://twitter.com/danahlen" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitterSquare} /></a>
+            <a href="https://github.com/owetz" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithubSquare} /></a>
+            <a href="https://www.linkedin.com/in/owetz/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
         </aside>
     )
 }

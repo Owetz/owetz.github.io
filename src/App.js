@@ -1,18 +1,15 @@
 import React from 'react';
 import './App.css';
 import TopNavBar from './Components/TopNavBar/TopNavBar';
-import SocialSideBar from './Components/SocialSideBar/SocialSideBar';
-import StartMainContent from './Components/StartMainContent/StartMainContent';
 
 function App() {
   return (
     <>
-    <TopNavBar />
-    <main>
-        <SocialSideBar />
-        
-        <StartMainContent />
-    </main>
+      <TopNavBar />
+      <main className="landingpage">
+        <h1 className="title">Daniel Owetz Ahl</h1>
+        <h2 className="subtitle">Frontend Developer</h2>
+      </main>
     </>
   );
 }
