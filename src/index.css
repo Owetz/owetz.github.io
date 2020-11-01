@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap');
+
 :root {
-  --primary: #022c43;
-  --secondary: #053f5e;
-  --third: #115173;
-  --accent: #ffd700;
+  --primary: #222831;
+  --text: #F4F6FF;
+  --accent: #4ECCA3;
 }
 
 * {
@@ -14,12 +15,10 @@
 }
 
 html, body {
-  font-family: 'Open+Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   background: var(--primary);
-  background: -webkit-linear-gradient(to right, var(--primary), var(--secondary));
-  background: linear-gradient(to right,var(--primary), var(--secondary));
   min-height: 100vh;
-  color: #EEEEEE;
+  color: var(--text);
   overflow: hidden;
+  font-weight: 100;
 }
-

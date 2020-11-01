@@ -1,20 +1,94 @@
 main {
-  padding:0 10vw;
-}
-
-.landingpage {
+  height: 60vh;
   display: flex;
   flex-direction: column;
+  flex-wrap:wrap;
   justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  width: 90vw;
+  margin: 0 auto;
+  font-size:1.6rem;
 }
 
-.title {
-  color:#eeeeee;
-  font-size: 17vw;
-  font-weight: 700;
+main p {
+  text-align: center;
 }
-.subtitle {
-  font-size: 7vw;
+
+header {
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+img.logo {
+  height: 4rem;
+}
+
+.accent {
+  color: var(--accent);
+  font-weight: 400;
+}
+
+a.cBtn {
+  margin: 3rem 0;
+  color: var(--text);
+  width: 90%;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid var(--accent);
+  border-radius: .5rem;
+  padding: .5rem;
+  font-size: 1.2rem;
+}
+
+a.cBtn:hover, a.cBtn:active {
   color:var(--accent);
-  font-weight: 200;
+  border-color: var(--accent);
+}
+
+section.socialSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 500px;
+  width: 90%;
+}
+
+section.socialSection a {
+  font-size: 2rem;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+@media screen and (min-width: 376px) {
+  main {
+    min-height: 60vh;
+    height: 100vw;
+    max-height: 70vh;
+    font-size:7vw;
+  }
+
+  a.cBtn {
+    max-width: 500px;
+    font-size: 5.1vw;
+  }
+}
+
+@media screen and (min-width: 470px){
+  a.cBtn{
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 685px){
+  main {
+    height: 70vh;
+    font-size: 3rem;
+  }
+
+  a.cBtn {
+    font-size: 1.5rem;
+  }
 }
